@@ -9,8 +9,7 @@
     "start": "node app.js",
     "lint": "eslint --fix",
     "test": "snyk test",
-    "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "snyk-protect": "snyk protect"
   },
   "dependencies": {
     "angular": "1.6.4",
